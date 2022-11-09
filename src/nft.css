@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #141943;
+}
+.navbar {
+  max-width: 1170px;
+  margin: auto;
+  padding: 50px 0 0 0;
+}
+.bg {
+  background: linear-gradient(
+    155.14deg,
+    rgba(255, 255, 255, 0) -2.13%,
+    rgba(255, 255, 255, 0.15) 136.58%
+  );
+  backdrop-filter: blur(7.49816px);
+  border-radius: 19.9951px;
+}
+.media {
+  display: flex;
+}
+.button {
+  display: flex;
+}
+
+
+/* Navbar Section Complete */
+
+/* .hamburger {
+  max-width: 1170px;
+  margin: auto;
+  padding: 50px 0 0 0;
+  display: none;
+} */
+
+/* Responsive Navbar Complete */

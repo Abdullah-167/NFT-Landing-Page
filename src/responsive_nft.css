@@ -1,0 +1,11 @@
+@media only screen and (max-width: 890px) {
+  .media {
+    display: block;
+  }
+  .links {
+    margin-top: 20px;
+  }
+  .button {
+    flex-wrap: wrap;
+  }
+}
